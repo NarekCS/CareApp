@@ -27,8 +27,7 @@ namespace Care.UI
         private UserProfileViewModel viewModel;
 
         public CareGiverProfile(int userID)
-        {
-            //profileController = new ProfileController(userID);
+        {           
             InitializeComponent();
             viewModel = new UserProfileViewModel(userID);
             this.DataContext = viewModel;
@@ -48,10 +47,6 @@ namespace Care.UI
         {
             //JobDescription job = new JobDescription(profileController);
             //job.Show();
-
-
-
-            ///////
         }
 
        
